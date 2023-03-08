@@ -1,0 +1,45 @@
+body{ 
+ 
+ background-image: url("airline4.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+}		
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+   color:black;
+  font-size: 30px;
+  
+  width: 1000px;
+  border: 15px solid darkgrey;
+  padding: 50px;
+  margin:100px;
+
+  
+}
+.c1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: blue;
+}
+.title1
+{ 
+ 
+ font-size:30px;
+ font-style:italic;
+ color:blue; }
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+.title3{ 
+  margin-left: 20px; 
+  font-size: 20px;
+  width:70px;
+  height:30px;
+  background-color: grey;
+}

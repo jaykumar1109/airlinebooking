@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html charset="utf-8" lang="en">
+    <head>
+<style>
+
+body{ 
+ 
+background-image: url("airline4.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+}   
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+   color:black;
+  font-size: 30px;
+  
+  width: 1000px;
+  border: 15px solid darkgrey;
+  padding: 50px;
+  margin:100px;
+
+  
+}
+.title1
+{ 
+ 
+ font-size:30px;
+ font-style:italic;
+ color:blue; }
+.c1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: blue;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+.title3{ 
+  margin-left: 20px; 
+  font-size: 20px;
+  width:70px;
+  height:30px;
+  background-color: grey;
+}
+
+</style>
+      <title>HOME
+      </title>
+    </head>
+    <body>
+      <div 
+      style="font-size:50px;" 
+      style="font-style:italic;"> Blue Airways service </div>
+      <div ><a href="Home.html"><button class="title3"><b>Home<b></button></a>
+      <div class="grid-container"> 
+        <div><div class="title1"> Cancellation Form</div>
+        <hr>
+        <form action="cancellation.php" method="post">
+          <div>
+        <label >First Name:</label>
+        <input  name="FirstName" placeholder="FirstName">
+        </input>
+      </div>
+       <div>
+        <label >Last Name:</label>
+        <input  name="LastName" placeholder="LastName">
+        </input>
+      </div>
+      <div>
+        <label >Boarding Pass:</label>
+        <input  name="Boardingpass" placeholder="BoardingPass">
+        </input>
+      </div>
+
+<input type="submit" style="width: 180px; height: 40px; font-size: 30px; ">
+      </form>
+      </div>
+    </div>
+      
+
+
+      
+    </body>
+    <footer class="Footerplace">Copyright © 2023 Air India Ltd. All rights reserved.
+Use of this website indicates your compliance with our Privacy Policy, Conditions of Carriage, Terms and Conditions.</footer>
+    </html>
